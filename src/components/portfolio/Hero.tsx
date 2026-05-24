@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import { ArrowRight, Download, Github, Linkedin, Mail, Sparkles } from "lucide-react";
-import profile from "@/assets/profile.jpg";
+import profile from "@/assets/rajesh-profile.jpg";
 import { TYPING_ROLES } from "./data";
 
 function useTyping(words: readonly string[], speed = 80, pause = 1400) {
@@ -86,23 +86,30 @@ export function Hero() {
           </div>
 
           <div className="mt-8 flex items-center gap-3">
-            {[
-              { Icon: Github, href: "https://github.com/Rajesh-ux7", label: "GitHub" },
-              { Icon: Linkedin, href: "https://www.linkedin.com/in/rajesh-muppidi-7b070a322?utm_source=share_via&utm_content=profile&utm_medium=member_android", label: "LinkedIn" },
-              { Icon: Mail, href: "mailto:m.rajesh07d@gmail.com", label: "Email" },
-            ].map(({ Icon, href, label }) => (
-              <a
-                key={label}
-                aria-label={label}
-                href={href}
-                target="_blank"
-                rel="noreferrer"
-                className="grid h-10 w-10 place-items-center rounded-xl glass transition hover:-translate-y-0.5 hover:text-primary"
-              >
-                <Icon size={18} />
-              </a>
-            ))}
-          </div>
+  {[
+    { Icon: Github, href: "https://github.com/Rajesh-ux7", label: "GitHub" },
+    { Icon: Linkedin, href: "https://www.linkedin.com/in/rajesh-muppidi-7b070a322/", label: "LinkedIn" },
+    { Icon: Mail, href: "https://mailto:m.rajesh07d@gmail.com", label: "Email" },
+  ].map(({ Icon, href, label }) => (
+    <a
+      key={label}
+      aria-label={label}
+      href={href}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="grid h-10 w-10 place-items-center rounded-xl glass transition hover:-translate-y-0.5 hover:text-primary"
+    >
+      <Icon size={18} />
+    </a>
+  ))}
+</div>
+
+
+<p className="mt-4 text-sm text-gray-300">
+📧 m.rajesh07d@gmail.com
+</p>
+
+
         </motion.div>
 
         <motion.div
