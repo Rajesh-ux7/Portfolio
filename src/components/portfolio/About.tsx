@@ -6,7 +6,7 @@ const cards = [
   {
     icon: Briefcase,
     title: "Professional Summary",
-    body: "Full Stack Developer with 3+ years building production web apps used by 50k+ users. I love turning complex problems into delightful, accessible interfaces.",
+    body: "Computer Science undergraduate specializing in Machine Learning with strong skills in Java, Data Structures, and Software Development principles. Experienced in building responsive applications, REST APIs, and user-centric solutions through projects and internships. Solid understanding of OOP, DBMS, Operating Systems, and problem-solving. Passionate about developing scalable applications that solve real-world problems.",
   },
   {
     icon: Target,
@@ -16,12 +16,12 @@ const cards = [
   {
     icon: Rocket,
     title: "Skills Overview",
-    body: "React, TypeScript, Node.js, Tailwind, PostgreSQL, MongoDB, AWS, Docker. Equally comfortable in design tools, infra and DX work.",
+    body: "React, Node.js, Tailwind, PostgreSQL, MongoDB, AWS, . Equally comfortable in design tools, infra and DX work.",
   },
   {
     icon: GraduationCap,
     title: "Education",
-    body: "B.Tech in Computer Science (2021–2025). Coursework in algorithms, distributed systems, databases & web engineering. CGPA 8.9.",
+    body: "B.Tech in Computer Science (2023–2027). Coursework in algorithms, distributed systems, databases & web engineering. ",
   },
 ];
 

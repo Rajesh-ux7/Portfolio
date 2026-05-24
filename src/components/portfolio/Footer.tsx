@@ -9,7 +9,7 @@ export function Footer() {
           <span className="grid h-7 w-7 place-items-center rounded-md bg-gradient-primary text-primary-foreground">
             A
           </span>
-          <span className="text-gradient">Aarav.dev</span>
+          <span className="text-gradient">RAJESH.Dev</span>
         </a>
 
         <ul className="flex flex-wrap items-center justify-center gap-x-5 gap-y-2 text-sm text-muted-foreground">
@@ -26,7 +26,7 @@ export function Footer() {
           {[
             { Icon: Github, href: "https://github.com", label: "GitHub" },
             { Icon: Linkedin, href: "https://linkedin.com", label: "LinkedIn" },
-            { Icon: Mail, href: "mailto:hello@aarav.dev", label: "Email" },
+            { Icon: Mail, href: "mailto:m.rajesh07d@gmail.com", label: "Email" },
           ].map(({ Icon, href, label }) => (
             <a
               key={label}
@@ -42,7 +42,7 @@ export function Footer() {
         </div>
       </div>
       <p className="mt-6 text-center text-xs text-muted-foreground">
-        © {new Date().getFullYear()} Aarav Mehta. Crafted with care & a lot of coffee.
+        © {new Date().getFullYear()} RAJESH. Crafted with care & a lot of coffee.
       </p>
     </footer>
   );

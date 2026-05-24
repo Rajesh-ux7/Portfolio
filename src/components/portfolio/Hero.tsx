@@ -48,11 +48,11 @@ export function Hero() {
         >
           <span className="inline-flex items-center gap-2 rounded-full glass px-3 py-1 text-xs text-muted-foreground">
             <Sparkles size={14} className="text-primary" />
-            Available for freelance & full-time
+            OPEN TO INTERNSHIPS & OPPORTUNITIES
           </span>
 
           <h1 className="mt-5 font-display text-5xl font-bold leading-[1.05] md:text-7xl">
-            Hi, I'm <span className="text-gradient">Aarav Mehta</span>
+            Hi, I'm <span className="text-gradient">M.RAJESH</span>
           </h1>
 
           <p className="mt-4 font-mono text-lg text-muted-foreground md:text-xl">
@@ -60,8 +60,7 @@ export function Hero() {
           </p>
 
           <p className="mt-5 max-w-xl text-base leading-relaxed text-muted-foreground md:text-lg">
-            I craft fast, accessible, and beautifully animated web experiences —
-            blending pixel-perfect UI with robust full-stack engineering.
+           I am a Passionate B.TECH Student Focused On Full-Stack Development,Building Responsive WEB APPLICATIONS And Creating Modern User Experiences.
           </p>
 
           <div className="mt-8 flex flex-wrap items-center gap-3">
@@ -88,9 +87,9 @@ export function Hero() {
 
           <div className="mt-8 flex items-center gap-3">
             {[
-              { Icon: Github, href: "https://github.com", label: "GitHub" },
-              { Icon: Linkedin, href: "https://linkedin.com", label: "LinkedIn" },
-              { Icon: Mail, href: "mailto:hello@aarav.dev", label: "Email" },
+              { Icon: Github, href: "https://github.com/Rajesh-ux7", label: "GitHub" },
+              { Icon: Linkedin, href: "https://www.linkedin.com/in/rajesh-muppidi-7b070a322?utm_source=share_via&utm_content=profile&utm_medium=member_android", label: "LinkedIn" },
+              { Icon: Mail, href: "mailto:m.rajesh07d@gmail.com", label: "Email" },
             ].map(({ Icon, href, label }) => (
               <a
                 key={label}
@@ -117,7 +116,7 @@ export function Hero() {
             <div className="overflow-hidden rounded-[1.6rem]">
               <img
                 src={profile}
-                alt="Aarav Mehta — Full Stack Developer"
+                alt="M.RAJESH  — Full Stack Developer"
                 width={800}
                 height={800}
                 className="aspect-square w-full object-cover"
@@ -126,12 +125,12 @@ export function Hero() {
 
             <div className="absolute -bottom-3 -left-3 rounded-2xl glass-strong p-3 text-xs shadow-card">
               <div className="font-mono text-primary">{"<dev />"}</div>
-              <div className="text-muted-foreground">3+ yrs · 40+ projects</div>
+              <div className="text-muted-foreground">Student*Web Developer</div>
             </div>
             <div className="absolute -top-3 -right-3 rounded-2xl glass-strong p-3 text-xs shadow-card">
               <div className="flex items-center gap-1.5">
                 <span className="h-2 w-2 rounded-full bg-emerald-400 animate-pulse" />
-                <span>Open to work</span>
+                <span>Open to Internships</span>
               </div>
             </div>
           </div>

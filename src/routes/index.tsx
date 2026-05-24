@@ -14,13 +14,13 @@ export const Route = createFileRoute("/")({
   component: Index,
   head: () => ({
     meta: [
-      { title: "Aarav Mehta — Front-End & Full Stack Developer" },
+      { title: "M.RAJESH  — Front-End & Full Stack Developer" },
       {
         name: "description",
         content:
-          "Portfolio of Aarav Mehta — a Front-End & Full Stack Developer crafting fast, accessible, and beautifully animated web experiences with React, Node.js and modern tooling.",
+          "Portfolio of M.RAJESH — a Front-End & Full Stack Developer crafting fast, accessible, and beautifully animated web experiences with React, Node.js and modern tooling.",
       },
-      { property: "og:title", content: "Aarav Mehta — Front-End & Full Stack Developer" },
+      { property: "og:title", content: "RAJESH — Front-End & Full Stack Developer" },
       {
         property: "og:description",
         content: "Modern portfolio showcasing projects, skills, experience and certifications.",
@@ -35,7 +35,7 @@ export const Route = createFileRoute("/")({
         children: JSON.stringify({
           "@context": "https://schema.org",
           "@type": "Person",
-          name: "Aarav Mehta",
+          name: "M.RAJESH",
           jobTitle: "Front-End & Full Stack Developer",
           url: "/",
           sameAs: ["https://github.com", "https://linkedin.com"],
