@@ -1,5 +1,5 @@
 import project1 from "@/assets/project-11.jpg";
-import project2 from "@/assets/project-2.jpg";
+import project2 from "@/assets/profile2.jpg";
 import project3 from "@/assets/project-3.jpg";
 import project4 from "@/assets/project-4.jpg";
 
@@ -53,9 +53,17 @@ export const PROJECTS = [
     category: "Full Stack",
     github: "https://github.com/Rajesh-ux7/floodwatch",
   },
+   {
+    title: " AI-Powered Movie Recommendation System",
+    description: "Built a content-based movie recommendation system using CountVectorizer, Cosine Similarity, and Streamlit to deliver personalized real-time movie suggestions through feature engineering and similarity analysis on a dataset of 500+ movies.",
+    image: profile2,
+    tags: ["Python", "Scikit-learn", "CountVectorizer", "Cosine Similarity"],
+    category: "AI&ML",
+    github: "https://github.com/Rajesh-ux7/cine-suggest",
+  },
 ];
 
-export const PROJECT_CATEGORIES = ["All", "Frontend", "Full Stack"] as const;
+export const PROJECT_CATEGORIES = ["All", "Frontend", "Full Stack","AI&ML"] as const;
 
 export const TIMELINE = [
   {
