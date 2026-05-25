@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import { ArrowRight, Download, Github, Linkedin, Mail, Sparkles } from "lucide-react";
 import profile from "@/assets/rajesh-profilee.jpg";
 import { TYPING_ROLES } from "./data";
+import resume from "@/assets/Rajesh Resume.UPDATED1.pdf";
 
 function useTyping(words: readonly string[], speed = 80, pause = 1400) {
   const [text, setText] = useState("");
@@ -72,7 +73,8 @@ export function Hero() {
               <ArrowRight size={16} className="transition-transform group-hover:translate-x-1" />
             </a>
             <a
-              href="#"
+              href={resume}
+              download="Rajesh Resume.UPDATED1.pdf"
               className="inline-flex items-center gap-2 rounded-xl glass px-5 py-3 text-sm font-medium hover:bg-white/10"
             >
               <Download size={16} /> Download Resume
