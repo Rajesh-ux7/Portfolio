@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import { ArrowRight, Download, Github, Linkedin, Mail, Sparkles } from "lucide-react";
-import profile from "@/assets/rajesh-profile.jpg";
+import profile from "@/assets/rajesh-profilee.jpg";
 import { TYPING_ROLES } from "./data";
 
 function useTyping(words: readonly string[], speed = 80, pause = 1400) {
