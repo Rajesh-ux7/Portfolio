@@ -56,7 +56,7 @@ export const PROJECTS = [
    {
     title: " AI-Powered Movie Recommendation System",
     description: "Built a content-based movie recommendation system using CountVectorizer, Cosine Similarity, and Streamlit to deliver personalized real-time movie suggestions through feature engineering and similarity analysis on a dataset of 500+ movies.",
-    image: profile2,
+    image: project2,
     tags: ["Python", "Scikit-learn", "CountVectorizer", "Cosine Similarity"],
     category: "AI&ML",
     github: "https://github.com/Rajesh-ux7/cine-suggest",
