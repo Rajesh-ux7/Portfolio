@@ -77,7 +77,7 @@ export function Hero() {
               download="Rajesh_103.pdf"
               className="inline-flex items-center gap-2 rounded-xl glass px-5 py-3 text-sm font-medium hover:bg-white/10"
             >
-              <Download size={16} /> Download Resume
+              <Download size={16} /> Download Resume 
             </a>
             <a
               href="#contact"
