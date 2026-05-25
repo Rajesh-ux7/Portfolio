@@ -2,6 +2,7 @@ import { useState } from "react";
 import { motion } from "framer-motion";
 import { Github, Linkedin, Mail, MapPin, Phone, Send } from "lucide-react";
 import { Section, SectionHeading } from "./Section";
+import emailjs from "@emailjs/browser";
 
 type Errors = Partial<Record<"name" | "email" | "message", string>>;
 
@@ -18,14 +19,39 @@ export function Contact() {
     setErrors(e);
     return Object.keys(e).length === 0;
   };
+const onSubmit = async (ev: React.FormEvent) => {
+  ev.preventDefault();
 
-  const onSubmit = (ev: React.FormEvent) => {
-    ev.preventDefault();
-    if (!validate()) return;
+  if (!validate()) return;
+
+  try {
+    await emailjs.send(
+      "service_elzla78",
+      "template_5xx7zi6",
+      {
+        from_name: form.name,
+        email: form.email,
+        message: form.message,
+      },
+      "_wv5gPT4EboWz122n"
+    );
+
     setSent(true);
-    setForm({ name: "", email: "", message: "" });
+
+    setForm({
+      name: "",
+      email: "",
+      message: "",
+    });
+
     setTimeout(() => setSent(false), 4000);
-  };
+
+  } catch (error) {
+    console.log(error);
+    alert("Failed to send message");
+  }
+};
+ 
 
   return (
     <Section id="contact">
