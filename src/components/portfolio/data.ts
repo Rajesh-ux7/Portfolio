@@ -52,7 +52,6 @@ export const PROJECTS = [
     tags: ["React", "JavaScript", "Node.js", "Arduino"],
     category: "Full Stack",
     github: "https://github.com/Rajesh-ux7/floodwatch",
-    demo: "#",
   },
 ];
 
