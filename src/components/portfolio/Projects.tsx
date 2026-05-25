@@ -76,14 +76,6 @@ export function Projects() {
 
                 <div className="mt-5 flex items-center gap-2">
                   <a
-                    href={p.demo}
-                    target="_blank"
-                    rel="noreferrer"
-                    className="inline-flex items-center gap-1.5 rounded-lg bg-gradient-primary px-3.5 py-2 text-xs font-medium text-primary-foreground"
-                  >
-                    Live Demo <ExternalLink size={13} />
-                  </a>
-                  <a
                     href={p.github}
                     target="_blank"
                     rel="noreferrer"
