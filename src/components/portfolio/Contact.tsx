@@ -119,14 +119,14 @@ export function Contact() {
           <div className="rounded-2xl glass p-6">
             <h3 className="font-display text-lg font-semibold">Contact details</h3>
             <ul className="mt-4 space-y-3 text-sm">
-              <Detail icon={Mail} label="hello@aarav.dev" href="mailto:m.rajesh07d@gmai.com" />
+              <Detail icon={Mail} label="m.rajesh07d@gmail.com" href="mailto:m.rajesh07d@gmai.com" />
               <Detail icon={Phone} label="+91 7675846065" href="tel:+91 7675846065" />
               <Detail icon={MapPin} label="vizag, India" />
             </ul>
             <div className="mt-5 flex gap-2">
               {[
-                { Icon: Github, href: "https://github.com", label: "GitHub" },
-                { Icon: Linkedin, href: "https://linkedin.com", label: "LinkedIn" },
+                { Icon: Github, href: "https://github.com/Rajesh-ux7", label: "GitHub" },
+                { Icon: Linkedin, href: "https://linkedin.com/in/rajesh-muppidi-7b070a322", label: "LinkedIn" },
                 { Icon: Mail, href: "mailto:m.rajesh07d@gmail.com", label: "Email" },
               ].map(({ Icon, href, label }) => (
                 <a
